@@ -1,11 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int x, result;
-    printf("Enter a Number:");
-    scanf("%d", &x);
-    result = x--; // Post decrement
-    printf("Result is=%d\n", result);
-    printf("X is=%d\n", x);
+    int i=5;
+    printf("%d\n",i++);//5---6
+    printf("%d\n",i--);//6---5
+    printf("%d\n",++i);//6
+    printf("%d\n",i++);//6---7
+    printf("%d\n",i);//7
+    printf("%d\n",--i);//6
+    printf("%d\n",i++);//6---7
+    printf("%d\n",i);//7
+    printf("%d\n",i--);//7---6
+    printf("%d\n",--i);//5
     return 0;
 }
