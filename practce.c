@@ -1,13 +1,7 @@
-#include <stdio.h>
-int main()
-{
-    int n,i;
-    printf("Enter a Number:");
-    scanf("%d",&n);
-    for ( i = 1; i <= n; i++)
+//16
+#include<stdio.h>
+int main(
     {
-        printf("%d\n",n*i);
+
+        return 0;
     }
-    
-    return 0;
-}

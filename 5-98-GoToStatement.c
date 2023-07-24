@@ -5,7 +5,7 @@ int main()
 emon:                  // label
     printf("%d\t", i); // this will take tab
     i++;
-    if (i < 5) 
+    if (i < 5)
     {
         goto emon; // this will take the program to label emon
     }
