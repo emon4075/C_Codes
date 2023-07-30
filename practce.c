@@ -1,16 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,sum=0;
-    printf("Enter the last number:");
+    int i,row,col,n;
+    printf("Enter your range:");
     scanf("%d",&n);
-    printf("1+3+5+.........+%d = ",n);
-    i=1;
-    while (i<=n)
+    for ( row = 1; row <=n; row++)
     {
-        sum=sum+i;
-        i+=2;
+        for ( col= 1; col <=row; col++)
+        {
+            printf("%d",row);
+        }
+        printf("\n");
     }
-    printf("%d",sum);
+    
     return 0;
 }
