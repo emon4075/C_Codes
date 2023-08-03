@@ -1,23 +1,26 @@
-// Finding the min value
-
 #include <stdio.h>
+// #define n 10// This is called macro
 int main()
 {
-    int i, n, min, num[100];
-    printf("How many numbers do you want to count?");
-    scanf("%d", &n);
+    int i, position, n = 25, value;
+    int array[] = {76, 61, 53, 88, 99, 72, 59, 81, 62, 64, 52, 57, 94, 67, 71, 89, 60, 55, 83, 79, 98, 56, 77, 95, 51};
+    printf("Enter a value:");
+    scanf("%d", &value);
     for (i = 0; i < n; i++)
     {
-        scanf("%d", &num[i]);
-    }
-    min = num[0];
-    for (i = 0; i < n; i++)
-    {
-        if (min > num[i])
+        if (array[i] == value)
         {
-            min = num[i];
+            position = i + 1;
         }
     }
-    printf("Minimum Value is %d", min); // This logic is so cool try to concentrate
+    if (position > 0)
+    {
+        printf("The %d is at %d position", value, position);
+    }
+
+    else
+    {
+        printf("Not found");
+    }
     return 0;
 }
