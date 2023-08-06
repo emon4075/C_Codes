@@ -1,26 +1,25 @@
 #include <stdio.h>
-// #define n 10// This is called macro
-int main()
-{
-    int i, position, n = 25, value;
-    int array[] = {76, 61, 53, 88, 99, 72, 59, 81, 62, 64, 52, 57, 94, 67, 71, 89, 60, 55, 83, 79, 98, 56, 77, 95, 51};
-    printf("Enter a value:");
-    scanf("%d", &value);
-    for (i = 0; i < n; i++)
+ 
+int main() {
+ 
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+    int i, array[5],even=0;
+    for ( i = 0; i < 5; i++)
     {
-        if (array[i] == value)
+        scanf("%d",&array[i]);
+    }
+    for ( i = 0; i < 5; i++)
+    {
+        if (array[i]%2==0)
         {
-            position = i + 1;
+            even++;
         }
+        
     }
-    if (position > 0)
-    {
-        printf("The %d is at %d position", value, position);
-    }
-
-    else
-    {
-        printf("Not found");
-    }
+    printf("%d valores pares",even);
     return 0;
 }
