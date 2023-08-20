@@ -30,3 +30,37 @@ int main()
     }
     return 0;
 }
+
+// Alternative Program
+/*
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char str[100];
+
+    printf("Enter a string: ");
+    gets(str);
+    printf("Real String Is: %s\n", str);
+    char copy[100];
+    strcpy(copy, str);
+
+    strrev(copy);
+    printf("Reversed Text Is: %s\n", copy);
+
+    if (strcmp(str, copy) == 0)
+    {
+        printf("It is a Palindrome string.\n");
+    }
+    else
+    {
+        printf("It is not a Palindrome string.\n");
+    }
+
+    return 0;
+}
+
+
+*/
