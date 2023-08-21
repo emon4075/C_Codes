@@ -26,7 +26,6 @@ int main()
     /*
     Q: Why strcpy() is used
     A: When strcpy is called, it starts copying characters from the source to the destination until it reaches the null-terminator ('\0') character in the source string. The null-terminator marks the end of the string in C.
-
     */
     Person1.Age = 21;
     Person1.Salary = 10000.00;
