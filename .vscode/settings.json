@@ -2,6 +2,7 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "*.js": "json",
-        "cmath": "c"
+        "cmath": "c",
+        "stdio.h": "c"
     }
 }
