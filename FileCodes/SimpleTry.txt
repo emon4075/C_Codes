@@ -1,0 +1,9 @@
+		Nkita		4075			CU			CSE
+		Arfin		4073			CUET			EEE
+		Tuhin		4067			BUET			CE
+		Irfan		4072			BUET			ChE
+		Nabeel		4001			BUET			NAME
+		Rajesh		4053			CUET			CSE
+		Rafi		4010			BUET			CE
+		Rafid		4033			KUET			LE
+		Nahid		4132			CUET			EEE

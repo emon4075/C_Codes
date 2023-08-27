@@ -1,0 +1,36 @@
+**User Guidelines for Rock-Paper-Scissors Game:**
+
+Welcome to the Rock-Paper-Scissors Game! This simple console-based game allows you to challenge the computer in a classic game of Rock-Paper-Scissors. Follow these guidelines to enjoy the game:
+
+1. **Introduction:**
+   Upon starting the game, you'll see the game's title and a disclaimer. Read the disclaimer to understand the game's rules and how to make your choices.
+
+2. **Making Choices:**
+   You'll play a total of three rounds against the computer. To make your choice, follow these instructions:
+   - Choose 'R' for Rock.
+   - Choose 'P' for Paper.
+   - Choose 'S' for Scissors.
+
+3. **Gameplay:**
+   After you've made your choice, the computer will also make its random choice. The winner of each round will be determined according to the classic Rock-Paper-Scissors rules:
+   - Rock beats Scissors.
+   - Scissors beats Paper.
+   - Paper beats Rock.
+
+4. **Rounds and Matches:**
+   Each round will be displayed with a round number. At the end of three rounds, the final match result will be calculated based on the number of rounds you've won and the number the computer has won.
+
+5. **Outcome Display:**
+   After each round, the outcome of that round will be displayed:
+   - "Computer Wins" if the computer wins that round.
+   - "You Win" if you win that round.
+   - "Round Tied" if the round ends in a tie.
+
+6. **Final Match Result:**
+   At the end of three rounds, the final match result will be displayed:
+   - "Computer Won The Match" if the computer wins more rounds.
+   - "Congrats! You Won The Match" if you win more rounds.
+   - "Match Tied" if the number of rounds won by you and the computer are the same.
+
+7. **Have Fun:**
+   Enjoy the game and have fun challenging the computer! Try to outsmart the computer by predicting its moves and making your choices wisely.

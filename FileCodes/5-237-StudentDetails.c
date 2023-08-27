@@ -23,7 +23,6 @@ int main()
             scanf("%d", &ph);
             fprintf(file, "\n\t%s\t\t\t%s\t\t\t\t%d", name, gender, ph);
         }
-
         fclose(file);
     }
     return 0;

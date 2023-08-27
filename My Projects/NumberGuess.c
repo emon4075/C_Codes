@@ -59,7 +59,7 @@ int main()
             else if (n1 == n2)
             {
                 printf("Congrats!!!\nYou guessed it correct!!\n");
-                printf("This program is made with \'Love\' by \"Emon\" !!\n");
+                printf("This game is made with \'Love\' by \"Emon\" !!\n");
                 printf("-------------------------------------------------\n");
                 exit(0);
             }
@@ -70,7 +70,7 @@ int main()
         {
             printf("Hard Luck!\nTry Next Time :(\n");
             printf("The Number was %d (-_-) \n", n1);
-            printf("This program is made with \'Love\' by \"Emon\" !!\n");
+            printf("This game is made with \'Love\' by \"Emon\" !!\n");
             printf("-------------------------------------------------\n");
         }
     }
