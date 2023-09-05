@@ -1,0 +1,26 @@
+**Dice Game Description and Instructions**
+
+**Description:**
+The "Dice Game" is a simple text-based game that challenges you to roll a virtual dice and try to achieve a specific target score within three rounds. The computer will set a target score for you, and you must use your dice rolls wisely to reach or exceed that target. Are you up for the challenge? Roll the dice and find out!
+
+**How to Play:**
+
+1. **Introduction:** When you start the game, you'll see an introduction section with the game's title and some hints. The hints will explain the basic rules of the game, such as the target score and the number of rounds you have to play.
+
+2. **Setting the Target:** The computer will randomly set a target score between 10 and 18. Your goal is to reach or exceed this target within three rounds.
+
+3. **Rolling the Dice:** To roll the dice, press 'R' or 'r' on your keyboard. You will have three chances to roll the dice and accumulate points.
+
+4. **Dice Roll Results:** After each roll, the game will display the result of your dice roll as a graphical representation of the dice face. Your total score for the current round will also be shown.
+
+5. **Repeat Rounds:** You will play three rounds in total. After each round, you can choose to roll the dice again or proceed to the next round.
+
+6. **Winning or Losing:** The game will decide if you win or lose based on your total score compared to the target score. If your total score is equal to or greater than the target, you win! Otherwise, it's hard luck, and you can try again.
+
+7. **Game Summary:** At the end of the game, a match summary will be displayed, showing the target score, your achieved score, and whether you won or lost.
+
+8. **Enjoy:** Have fun playing the "Dice Game" and see if you can beat the computer's target score within three rounds!
+
+---
+
+To play the game, you can compile and run the provided C code in a suitable development environment that supports C programming. The game will then run in the console, and you can follow the on-screen instructions to play.
